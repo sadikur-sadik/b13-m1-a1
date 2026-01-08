@@ -1,0 +1,65 @@
+              /* Styles for multiple item */
+
+*{
+  margin: 0px;
+  padding:0px;
+  font-family: "Inter", sans-serif;
+}
+
+/* .btn{
+
+
+
+
+} */
+
+
+              /* Header and Navigation Bar */
+header{
+  max-width: 1600px;
+  /* width: 1600px; */
+  height: 92px;
+  padding: 16px 120px ;
+}
+header nav{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+header nav .logo img{
+
+  width: 139px;
+  height: 60px;
+
+}
+
+header nav div ul{
+
+  display :flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:32px;
+  list-style: none;
+}
+
+header nav div li{
+  font-weight: 500px;
+}
+
+.btn1{
+  width: 164px;
+  background-color: rgba(70, 145, 101, 1);
+  border-radius: 4px;
+  border: none;
+  height: 44px;
+  padding: 12px 16px;
+  color:white;
+  font-weight: 600px;
+}
+
+          /* Header Designing Ends Here */
+
+          /* Main section Starts Here  */
