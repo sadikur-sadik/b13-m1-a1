@@ -174,6 +174,7 @@ main .banner .banner-item-container{
     align-items: center;
     padding: 16px 12px;
     gap:10px;
+    font-weight: 600px;
   }
   
   .bc-btn2{
@@ -182,6 +183,7 @@ main .banner .banner-item-container{
     border:none;
     border-radius: 4px;
     display: flex;
+    font-weight: 600px;
     justify-content: center;
     align-items: center;
     padding: 16px 12px;
@@ -191,17 +193,83 @@ main .banner .banner-item-container{
   
             /* card */
   .card-container{
-
-    height: 152px;
-    width: 1360px;
-    margin: 0px auto;
-    
-
+        height: 152px;
+        max-width: 1360px;
+        margin: 0px auto;
+        background-color: rgba(255, 255, 255, 1);
   }
-  .card-container .card-head{
+ .card-container .card-head{
+
+  
+  display: flex;
+  flex-direction: column;
+  justify-content:end;
+  align-items: center;
+  gap:16px;
+  margin-bottom: 44px;
+
+ }
+
+  .card-container .card-head h1{
     text-align: center;
+    font-weight: 700px;
+    font-size: 48px;
+    color:rgba(0, 25, 49, 1);
     
   }
-  .card-container .card-head h{
-    margin:40px 0px 16px 0px;
-  }
+   .card-container .card-head p{
+    font-weight: 400px;
+    text-align: center;
+    color: rgba(98, 115, 130, 1);
+    
+   }
+   .card-container .cards{
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    gap:24px;
+    padding: 24px;
+   }
+
+   .card-container .cards .card{
+    height: 300px;
+    width: 322px;
+
+    box-shadow:0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 16px;
+    
+   }
+
+   .card .card-img{
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    background-color: rgba(249, 85, 85, 1);
+
+   }
+   .card .card-img img{
+    height: 32px;
+    width: 32px;
+    margin: 14.38px 14.07px 13.62px 13.93px;
+   }
+
+   .card h4{
+    color: rgba(0, 25, 49, 1);
+    font-weight: 600px;
+    font-size: 24px;
+    text-align: center;
+   } 
+   
+   .card p{
+    font-weight: 400px;
+    line-height: 20px;
+    color: rgba(98, 115, 130, 1);
+    text-align: center;
+   }
+
+ 
