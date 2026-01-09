@@ -316,6 +316,7 @@ main .banner .banner-item-container{
       .solution .sol-container .sol-text .p1{
         color: rgba(70, 145, 101, 1);
         font-weight: 500px;
+        font-size: 16px;
         
         
 
@@ -373,24 +374,17 @@ main .banner .banner-item-container{
         margin: 0px auto;
         border-radius: 12px;
         background-color: rgba(247, 246, 242, 1);
-        padding: 80px 40px;
+        /* padding: 80px 40px; */
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         gap:24px;
       }
-      /* .moreclear .mc-container .mc-text{
-
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 16;
-
-      } */
+      
 
       .mc-text h1{
+        margin-top: 80px;
         font-weight: 700;
         text-align: center;
         font-size: 40px;
@@ -409,7 +403,8 @@ main .banner .banner-item-container{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap:16px
+        gap:16px;
+        margin-bottom: 80px;
       }
       .mc-btn button{
         display: flex;
@@ -432,6 +427,70 @@ main .banner .banner-item-container{
 
       }
       /* Think more clear section Ends here */
+
+
+      /* Main also ends here */
+
+    footer{
+      max-width: 1600px;
+      margin-top: 120px;
+      background-color: rgba(0, 25, 49, 1);
+      padding:120px 120px 30px 120px;
+
+    }
+
+    footer section{
+      max-width:1360px ;
+      max-height: 348px;
+      margin: 0px auto; 
+      
+    
+    }
+
+      footer section .description{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+      }
+
+      footer .description .foot-logo{
+        width: 139px;
+        height: 60px;
+      }
+
+      footer .description .foot-content{
+        width: 220px;
+        height: 64px;
+      }
+      footer .description .foot-content p{
+          font-size: 20px;
+          font-weight: 500;
+          color: white;
+          margin-bottom: 16px;
+        
+      }
+      footer .description .foot-content img{
+
+        margin-right: 16px;
+
+      
+      }
+
+      .copyrightcontent{
+        min-height: 54px;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+
+      }
+      .copyrightcontent p{
+        text-align: center;
+        color: white;
+      }
 
 
       
