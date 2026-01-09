@@ -360,3 +360,78 @@ main .banner .banner-item-container{
       }
 
       /* Solution Ends here */
+
+      /* Think more clear section */
+      .moreclear {
+        max-width: 1600px;
+        
+
+      }
+      .moreclear .mc-container{
+        max-width: 1360px;
+        max-height: 384px;
+        margin: 0px auto;
+        border-radius: 12px;
+        background-color: rgba(247, 246, 242, 1);
+        padding: 80px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap:24px;
+      }
+      /* .moreclear .mc-container .mc-text{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 16;
+
+      } */
+
+      .mc-text h1{
+        font-weight: 700;
+        text-align: center;
+        font-size: 40px;
+        
+      }
+      
+      .mc-text p{
+        font-weight: 400;
+        text-align: center;
+        font-size: 16px;
+        color: rgba(98, 115, 130, 1);
+        line-height: 24px;
+        
+      }
+      .mc-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:16px
+      }
+      .mc-btn button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        background-color: rgba(70, 145, 101, 1);
+        color: white;
+        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+        padding: 16px 12px;
+        border: none;
+        font-weight: 600;
+      }
+
+      .mc-btn p{
+
+        text-align: center;
+        font-weight: 400;
+        color:rgba(98, 115, 130, 1);
+
+      }
+      /* Think more clear section Ends here */
+
+
+      
