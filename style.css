@@ -6,12 +6,15 @@
   font-family: "Inter", sans-serif;
 }
 
-/* .btn{
+.btn{
+  border-radius: 4px;
+}
+.btn:hover{
 
 
+  box-shadow: 0px 5px 10px rgb(141, 141, 141);
 
-
-} */
+}
 
 
               /* Header and Navigation Bar */
@@ -53,7 +56,6 @@ header nav div li{
 .btn1{
   width: 164px;
   background-color: rgba(70, 145, 101, 1);
-  border-radius: 4px;
   border: none;
   height: 44px;
   padding: 12px 16px;
@@ -103,8 +105,6 @@ main .banner .banner-item-container{
 
   
   color:rgba(70, 145, 101, 1);
-  /* width: 183px;
-  height: 19px; */
   text-align: left;
   font-weight: 500;
   
@@ -168,7 +168,7 @@ main .banner .banner-item-container{
     background-color:rgba(48, 184, 104, 1) ;
     color: white;
     border:none;
-    border-radius: 4px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,7 +181,7 @@ main .banner .banner-item-container{
     background-color: rgba(0,0,0,0);
     color: white;
     border:none;
-    border-radius: 4px;
+    
     display: flex;
     font-weight: 600px;
     justify-content: center;
@@ -204,11 +204,11 @@ main .banner .banner-item-container{
         background-color: rgba(255, 255, 255, 1);
   }
  .card-container .card-head{
-
   
+  text-align: center;  
   display: flex;
   flex-direction: column;
-  justify-content:end;
+  justify-content: flex-end;
   align-items: center;
   gap:16px;
   margin-bottom: 44px;
@@ -217,8 +217,13 @@ main .banner .banner-item-container{
 
   .card-container .card-head h1{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 116px;
     font-weight: 700px;
     font-size: 48px;
+
     color:rgba(0, 25, 49, 1);
     
   }
@@ -374,7 +379,6 @@ main .banner .banner-item-container{
         margin: 0px auto;
         border-radius: 12px;
         background-color: rgba(247, 246, 242, 1);
-        /* padding: 80px 40px; */
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -472,8 +476,7 @@ main .banner .banner-item-container{
         
       }
       footer .description .foot-content img{
-
-        margin-right: 16px;
+         margin-right: 16px;
 
       
       }
